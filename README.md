@@ -1,4 +1,4 @@
-# KittyMinder-Core exampel usage
+# KittyMinder-Core example usage
 This is an example project by using kitty-minder core to set up your basic mindmap
 ## Setup
 ```
