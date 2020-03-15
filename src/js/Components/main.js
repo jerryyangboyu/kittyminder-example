@@ -2,7 +2,7 @@ import $ from 'jquery'
 import 'kity'
 import 'kityminder-core'
 
-export default ()=>{
+export default (data)=>{
     var km = window.km = new kityminder.Minder();
     km.renderTo('#minder-view')
     km.importData('json', data)

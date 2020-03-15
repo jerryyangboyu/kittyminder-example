@@ -15,7 +15,7 @@ if (file_url == undefined) {
         dataType: 'text',
         success: data => {
             toolbarComponent();
-            mainComponent();
+            mainComponent(data);
             window.setTimeout(() => {
                 $('#loading-cover').fadeOut()
             }, 1000);
